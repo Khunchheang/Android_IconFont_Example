@@ -15,9 +15,9 @@ public class MainActivity extends AppCompatActivity {
 
         Typeface typeface = Typeface.createFromAsset(getAssets(), "icomoon.ttf");
 
-        Button textView = (Button) findViewById(R.id.textView);
-        textView.setTypeface(typeface);
-        textView.setText("\uE900");
+        Button button = (Button) findViewById(R.id.button);
+        button.setTypeface(typeface);
+        button.setText("\uE900");
 
     }
 }
